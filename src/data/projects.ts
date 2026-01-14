@@ -21,7 +21,7 @@ export const projects: Array<ArchitectureProject> = [
     icon: Home,
     description: 'Résidence contemporaine unifamiliale',
     year: 2023,
-    tags: ['Structure', 'Exposer'],
+    tags: [ 'Lumière'],
   },
   {
     id: '2',
@@ -32,7 +32,7 @@ export const projects: Array<ArchitectureProject> = [
     icon: Building2,
     description: 'Développement résidentiel mixte',
     year: 2022,
-    tags: ['Réseaux', 'Tempérer', 'Matériaux bruts'],
+    tags: [ 'Lumière', 'Matérialité'],
   },
   {
     id: '3',
@@ -43,7 +43,7 @@ export const projects: Array<ArchitectureProject> = [
     icon: Briefcase,
     description: 'Bâtiment de bureaux durable',
     year: 2024,
-    tags: ['Structure', 'Couleur'],
+    tags: ['Technique', 'Matérialité'],
   },
   {
     id: '4',
@@ -54,7 +54,7 @@ export const projects: Array<ArchitectureProject> = [
     icon: Landmark,
     description: "Espace d'exposition d'art contemporain",
     year: 2021,
-    tags: ['Exposer', 'Matériaux bruts', 'Couleur'],
+    tags: ['Lumière', 'Matérialité'],
   },
   {
     id: '5',
@@ -65,7 +65,7 @@ export const projects: Array<ArchitectureProject> = [
     icon: School,
     description: 'Établissement éducatif moderne',
     year: 2023,
-    tags: ['Structure', 'Tempérer'],
+    tags: ['Technique', 'Lumière'],
   },
   {
     id: '6',
@@ -76,7 +76,7 @@ export const projects: Array<ArchitectureProject> = [
     icon: Hospital,
     description: 'Établissement de santé de pointe',
     year: 2022,
-    tags: ['Réseaux', 'Tempérer', 'Couleur'],
+    tags: ['Technique', 'Lumière', 'Matérialité'],
   },
   {
     id: '7',
@@ -87,7 +87,7 @@ export const projects: Array<ArchitectureProject> = [
     icon: Building,
     description: 'Tour résidentielle haut de gamme',
     year: 2024,
-    tags: ['Structure', 'Matériaux bruts'],
+    tags: ['Technique', 'Matérialité'],
   },
   {
     id: '8',
@@ -98,7 +98,7 @@ export const projects: Array<ArchitectureProject> = [
     icon: Store,
     description: 'Complexe commercial et de divertissement',
     year: 2021,
-    tags: ['Réseaux', 'Exposer', 'Couleur'],
+    tags: ['Technique', 'Lumière', 'Matérialité'],
   },
   {
     id: '9',
@@ -109,7 +109,7 @@ export const projects: Array<ArchitectureProject> = [
     icon: School,
     description: 'Bibliothèque académique moderne',
     year: 2023,
-    tags: ['Structure', 'Tempérer', 'Matériaux bruts'],
+    tags: ['Technique', 'Lumière', 'Matérialité'],
   },
   {
     id: '10',
@@ -120,7 +120,7 @@ export const projects: Array<ArchitectureProject> = [
     icon: Hospital,
     description: 'Établissement médical axé sur la communauté',
     year: 2022,
-    tags: ['Réseaux', 'Tempérer'],
+    tags: ['Technique', 'Lumière'],
   },
   {
     id: '11',
@@ -131,7 +131,7 @@ export const projects: Array<ArchitectureProject> = [
     icon: Landmark,
     description: "Espace de galerie d'art moderne",
     year: 2024,
-    tags: ['Exposer', 'Couleur'],
+    tags: ['Lumière', 'Matérialité'],
   },
   {
     id: '12',
@@ -142,7 +142,7 @@ export const projects: Array<ArchitectureProject> = [
     icon: Home,
     description: 'Résidence de banlieue conviviale',
     year: 2023,
-    tags: ['Structure', 'Tempérer', 'Matériaux bruts'],
+    tags: ['Technique', 'Lumière', 'Matérialité'],
   },
   {
     id: '13',
@@ -153,7 +153,7 @@ export const projects: Array<ArchitectureProject> = [
     icon: Building2,
     description: "Pôle d'innovation et espace de travail",
     year: 2024,
-    tags: ['Réseaux', 'Exposer', 'Matériaux bruts'],
+    tags: ['Technique', 'Lumière', 'Matérialité'],
   },
   {
     id: '14',
@@ -164,7 +164,7 @@ export const projects: Array<ArchitectureProject> = [
     icon: School,
     description: "Établissement d'enseignement secondaire complet",
     year: 2022,
-    tags: ['Structure', 'Couleur'],
+    tags: ['Technique', 'Matérialité'],
   },
   {
     id: '15',
@@ -175,6 +175,6 @@ export const projects: Array<ArchitectureProject> = [
     icon: Hotel,
     description: 'Espace hôtelier avant-gardiste',
     year: 2023,
-    tags: ['Tempérer', 'Matériaux bruts', 'Couleur'],
+    tags: ['Lumière', 'Matérialité'],
   },
 ]

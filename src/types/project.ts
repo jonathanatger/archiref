@@ -24,14 +24,7 @@ export type Color =
   | 'Blanc'
   | 'Noir'
 
-export type ThemeCategory = keyof typeof themes
-export type ThemeQuality =
-  | 'Structure'
-  | 'Réseaux'
-  | 'Exposer'
-  | 'Tempérer'
-  | 'Matériaux bruts'
-  | 'Couleur'
+export type ThemeQuality = (typeof themes)[number]
 
 export interface ArchitectureProject {
   id: string

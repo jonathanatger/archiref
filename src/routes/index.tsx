@@ -40,7 +40,7 @@ function App() {
       <div className="container mx-auto px-4 py-8">
         <div className="mb-8">
           <h1 className="text-4xl font-bold mb-2 text-foreground">
-            Projets d'Architecture
+            Projets
           </h1>
           <p className="text-muted-foreground">
             Sélectionnez les thèmes pour filtrer les projets
@@ -68,9 +68,7 @@ function App() {
                   {projects.length}
                 </>
               ) : (
-                <>
-                  Tous les projets ({projects.length})
-                </>
+                <>Tous les projets ({projects.length})</>
               )}
             </div>
 
