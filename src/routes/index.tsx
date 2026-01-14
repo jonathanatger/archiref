@@ -68,9 +68,7 @@ function App() {
                   {projects.length}
                 </>
               ) : (
-                <>
-                  Tous les projets ({projects.length})
-                </>
+                <>Tous les projets ({projects.length})</>
               )}
             </div>
 

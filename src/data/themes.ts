@@ -1,5 +1,5 @@
 export const themes = {
   Technique: ['Structure', 'Réseaux'],
   Lumière: ['Exposer', 'Tempérer'],
-  Esthétique: ['Matériaux bruts', 'Couleur'],
+  Matérialité: ['Matériaux bruts', 'Transparence'],
 } as const
