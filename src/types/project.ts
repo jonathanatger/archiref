@@ -1,12 +1,6 @@
 import type { LucideIcon } from 'lucide-react'
 import type { themes } from '../data/themes'
 
-export type Theme =
-  | 'Résidentiel'
-  | 'Commercial'
-  | 'Culturel'
-  | 'Éducatif'
-  | 'Santé'
 export type Typology =
   | 'Maison'
   | 'Appartement'
@@ -15,23 +9,14 @@ export type Typology =
   | 'École'
   | 'Hôpital'
   | 'Mixte'
-export type Color =
-  | 'Bleu'
-  | 'Rouge'
-  | 'Vert'
-  | 'Jaune'
-  | 'Gris'
-  | 'Blanc'
-  | 'Noir'
 
 export type ThemeQuality = (typeof themes)[number]
 
 export interface ArchitectureProject {
   id: string
   name: string
-  theme: Theme
-  typology: Typology
-  color: Color
+  authors: string
+  typology: [Typology]
   icon: LucideIcon
   description: string
   year: number

@@ -1,5 +1,8 @@
 export const themes = [
-  "Technique",
+  "Structure",
   "Lumière",
-  "Matérialité",
+  "Matérialité/Couleur",
+  "Durabilité/Réemploi",
+  "Composition",
+  "Ville/Territoire",
  ] as const
